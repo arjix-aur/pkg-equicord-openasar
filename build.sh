@@ -9,7 +9,7 @@ sudo pacman-key --lsign-key 3056513887B78AEB
 
 paru -Syu --noconfirm --ignore linux
 
-PKG='$$TEMPLATE_PKG$$'
+PKG='equicord-openasar'
 
 paru -G "$PKG"
 paru -B "$PKG" --noconfirm
